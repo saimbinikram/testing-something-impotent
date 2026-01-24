@@ -1,16 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saim Says Lol</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saim Bin Ikram — Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      margin-top: 1rem;
+      max-width: 600px;
+      opacity: 0.85;
+    }
+
+    .links {
+      margin-top: 2rem;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .links a {
+      text-decoration: none;
+      color: #fff;
+      border: 1px solid rgba(255,255,255,0.4);
+      padding: 0.6rem 1.4rem;
+      border-radius: 999px;
+      transition: 0.3s;
+    }
+
+    .links a:hover {
+      background: rgba(255,255,255,0.15);
+    }
+
+    section {
+      padding: 6rem 10vw;
+      background: rgba(0,0,0,0.15);
+      backdrop-filter: blur(6px);
+    }
+
+    section:nth-child(even) {
+      background: rgba(0,0,0,0.25);
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+
+    .fake-content {
+      max-width: 800px;
+      opacity: 0.9;
+    }
+
+    footer {
+      padding: 3rem;
+      text-align: center;
+      opacity: 0.6;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
+
 <body>
-    <h1>You did this to yourself lol</h1>
-    <script>
-        for(let i = 1; i >= 0;i++){
-    console.log(i)
-}
-    </script>
+
+  <header>
+    <h1>Saim Bin Ikram</h1>
+    <p>
+      Developer • Creator • Dreamer  
+      <br />
+      This portfolio is currently under construction. Big things coming soon.
+    </p>
+
+    <div class="links">
+      <a href="#">Instagram</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+      <a href="#">Twitter</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p class="fake-content">
+      I build clean, modern web experiences with a focus on performance,
+      aesthetics, and user delight. This site is a preview of what’s coming —
+      feel free to explore while things are still being polished.
+    </p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <p class="fake-content">
+      A curated collection of experiments, concepts, and passion projects.
+      Currently being refactored, redesigned, and made cooler than necessary.
+    </p>
+  </section>
+
+  <section>
+    <h2>Vision</h2>
+    <p class="fake-content">
+      The goal is simple: build things that feel good to use. Thoughtful motion,
+      clean design, and just enough magic to keep users scrolling.
+    </p>
+  </section>
+
+  <footer>
+    © 2026 — Under Construction 🚧
+  </footer>
+
+  <script>
+    // setTimeout(() => {
+    //   console.log("⚠️ Performance warning detected...");
+    //   setInterval(() => {
+    //     document.body.style.cursor =
+    //       Math.random() > 0.5 ? "wait" : "not-allowed";
+    //   }, 200);
+    //   setInterval(() => {
+    //     console.log("ERROR: Everything is working perfectly.");
+    //   }, 500);
+    //   setTimeout(() => {
+    //     alert(
+    //       "⚠️ SYSTEM NOTICE ⚠️\n\nUnexpected behavior detected.\nAttempting to stabilize UI..."
+    //     );
+    //   }, 3000);
+
+    // }, 3000);
+  </script>
+
 </body>
 </html>
